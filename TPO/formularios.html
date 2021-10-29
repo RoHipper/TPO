@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Inscripción</title>
+    <script src="https://kit.fontawesome.com/f570ab0e1f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+   <header>
+      <div>
+         <a href="./index.html" id="tit"><h1>Amande</h1></a>
+         <span><p id="tt">Recetario gourmet</p></span>
+     </div>
+   </header>
+   <section>
+     <nav>
+          <div class="menu">
+             <div class="link" id="uno"><a href="index.html" class="a">Recetario</a></div>
+             <div class="link" id="dos"><a href="tablas.html" class="a">Cursos</a></div>
+             <div class="link" id="tres"><a href="formularios.html" class="a">Inscripción</a></div>
+          </div>
+     </nav>
+   </section> 
+   <main>
+    <div class="formu">
+       <div id="inscri">
+         <h1 id="it" class="animate__animated animate__swing">Complete el siguiente formulario para inscribirse al Curso</h1>
+       </div>
+      <form action="" name="form" class="form" id="formulario">
+        <label for="nombre">Nombre</label>
+        <input type="text" class="form-box" id="nombre" name="nombre" placeholder="Ej. Rocío" maxlength="10" autocomplete="Nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" class="form-box" name="apellido" id="apellido">
+        <br>
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" class="form-box" id="edad" min="0" max="100">
+        <br>
+        <br>
+        <label for="sexo">Sexo</label>
+           <select name="sexo" id="sexo" class="form-box">
+                <option value="Femenino">Femenino</option>
+                <option value="Masculino">Masculino</option>
+                <option value="No binario">No binario</option>
+                <option value="Otro">Otro</option>
+           </select>
+        <br>
+        <br>
+        <label for="dias">Seleccione los días</label>
+        <br>
+        <input type="radio" class="form-box" name="dias" value="1"> Lunes y Jueves
+        <br>
+        <input type="radio" class="form-box" name="dias" value="0"> Martes y Viernes
+        <br>
+        <br>
+        <input type="submit" name="registrarme" value="REGISTRARME" class="submit" id="submitRegistro">
+        <br>
+        <br>
+     </form>
+    </div>
+    </main>
+    <div class="footer">
+      <div class="fut">
+              <ul class="pie">
+                    <li>
+                    <a href="https://www.facebook.com/Lx2HZN"><i class="fab fa-facebook"></i></a>
+                 </li>
+                    <li>
+                    <a href="https://www.instagram.com/rohipper/"><i class="fab fa-instagram"></i></a>
+                 </li>
+                    <li>
+                    <a href="https://www.youtube.com/channel/UC3E_QX_B-Eyi7ZL5_OKCSkA"><i class="fab fa-youtube"></i></a>
+                 </li>
+              </ul>
+      </div>             
+   </div> 
+   <script src="./js/javascript.js"></script>
+</body>
+</html>
